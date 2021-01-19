@@ -5,7 +5,7 @@
 
 ## Разработка
 
-Для локальной разработкие требуется:
+Для локальной разработки требуется:
 
 - [`editorconfig`](http://editorconfig.org/) plugin (**required**)
 - [`poetry`](https://github.com/python-poetry/poetry) (**required**)
@@ -14,7 +14,7 @@
 - `docker` with [version at least](https://docs.docker.com/compose/compose-file/#compose-and-docker-compatibility-matrix) `18.02`
 
 ### Запуск
-- `$ docker compose up` - бэк доступен по адрессу http://localhost:8000/
+- `$ docker compose up` - бэк доступен по адресс http://localhost:8000/
 - `$ docker exec -it [poll-system-api container id] /bin/bash`, потом `$ pytest`
 
 
