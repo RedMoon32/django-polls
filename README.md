@@ -14,7 +14,7 @@
 - `docker` with [version at least](https://docs.docker.com/compose/compose-file/#compose-and-docker-compatibility-matrix) `18.02`
 
 ### Запуск
-- `$ docker compose up` - бэк доступен по адресс http://localhost:8000/
+- `$ docker compose up` - бэк доступен по адресу http://localhost:8000/
 - `$ docker exec -it [poll-system-api container id] /bin/bash`, потом `$ pytest`
 
 
